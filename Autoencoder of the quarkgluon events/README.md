@@ -14,3 +14,4 @@
    - **Latent Space**: Optimal 4096-dimension latent space (experimentally determined for minimal loss vs training speed).  
    - **Normalization**: Inputs rescaled to [0,1] and sparse pixels (<1e-6) augmented with noise via `HandleSparseImages` to avoid anomalies.  
    - **LR Scheduling**: `ReduceLROnPlateau` with patience=5 to dynamically adjust learning rate.
+     ![reconstructions_epoch_77.png]([https://github.com/Abdelrahman10101/Genie/blob/main/Autoencoder%20of%20the%20quarkgluon%20events/reconstructions_epoch_77.png])
