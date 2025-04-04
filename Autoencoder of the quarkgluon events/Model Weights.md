@@ -2,4 +2,4 @@
 
 You can download the model weights from the following link:
 
-[Weights Link](https://www.kaggle.com/models/abdelrahmanhesham101/lhc-auto-encoder/pyTorch/default/1)
+[Kaggle Link](https://www.kaggle.com/models/abdelrahmanhesham101/lhc-auto-encoder/pyTorch/default/1)
