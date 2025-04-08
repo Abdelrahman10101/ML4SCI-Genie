@@ -33,3 +33,4 @@
    - Batch processing (size=32) for GPU utilization  
 
 **Results**: The non-local variant achieves comparable performance (ΔAUC -0.0006) while demonstrating the feasibility of attention mechanisms in particle physics graph networks. The architecture maintains efficiency with a 25-epoch training cycle (early stopping) and modular design for further experimentation.
+![ROC Curves.png](https://github.com/Abdelrahman10101/Genie/blob/main/Non-local%20GNNs%20for%20Jet%20Classification/ROC%20Curves.png)
