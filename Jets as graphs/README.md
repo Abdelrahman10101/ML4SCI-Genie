@@ -24,4 +24,4 @@
    - Early stopping (patience=5) to prevent overfitting
    - Cross-entropy loss with ROC-AUC monitoring
    - Achieves 0.73 AUC score on validation set
-
+![ROC_Curve.png](https://github.com/Abdelrahman10101/Genie/blob/main/Jets%20as%20graphs/ROC_Curve.png)
