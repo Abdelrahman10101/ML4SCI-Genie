@@ -26,11 +26,11 @@
 4. **Training Optimization**  
    - **Early Stopping**: Halts training if validation loss plateaus (patience=5)  
    - **Dynamic LR**: `ReduceLROnPlateau` (factor=0.5) adjusts learning rate from 0.001  
-   - **Metrics**: Tracks ROC-AUC (0.7299 baseline → 0.7293 with non-local)  
+   - **Metrics**: Tracks ROC-AUC (0.7289 baseline → 0.7299 with non-local)  
 
 5. **Efficiency Features**  
    - Chunked data loading with memory cleanup (`gc.collect()`)  
    - Batch processing (size=32) for GPU utilization  
 
-**Results**: The non-local variant achieves comparable performance (ΔAUC -0.0006) while demonstrating the feasibility of attention mechanisms in particle physics graph networks. The architecture maintains efficiency with a 25-epoch training cycle (early stopping) and modular design for further experimentation.
+**Results**: The non-local variant achieves comparable performance (ΔAUC 0.0010) while demonstrating the feasibility of attention mechanisms in particle physics graph networks. The architecture maintains efficiency with a 17-epoch training cycle (early stopping) and modular design for further experimentation.
 ![ROC Curves.png](https://github.com/Abdelrahman10101/Genie/blob/main/Non-local%20GNNs%20for%20Jet%20Classification/ROC%20Curves.png)
